@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+header{
+    background-color: #0984e3;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.header-logo{
+
+    text-align: center;
+}
+.header-logo h4 {
+    color: #ffe004;
+    font-size: 28px;
+    padding: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+.header-nav{
+    text-align: left;
+
+}
+
+.header-nav ul{
+    text-align: center;
+}
+.header-nav ul li {
+    display: inline-block;
+    line-height: 42px;
+}
+.header-nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+.header-nav ul li a::hover{}
+
+.section-heading{
+    background-color: aqua;
+    margin-top: 30px;
+}
+.section-heading h1{}
+
+.content-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left-content{
+    text-align: center;
+}
+.right-content{
+    text-align: left;
+}
+.left-content img {
+    width: 315px;
+    height: auto;
+    margin: 50px 30px;
+    border: 3px solid #0497ff;
+}
+.right-content {
+    margin-top: 50px;
+}
+.right-content h1 {
+    font-size: 30px;
+    background: #ddd;
+    margin-bottom: 20px;
+}
+.right-content h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.right-inner-items {
+    background: #0d84a1;
+    width: 400px;
+    height: auto;
+    padding: 15px 20px;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+}
+.title h1 {
+    color: #fff;
+    background: #1ee163;
+}
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+table, th, tr, td{
+    border: 1px solid #ddd;
+   
+}
+
+.routine-details {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.routine-details h1{}
+.routine-details h3{}
+.routine-details h4{}
+.routine-details h5{}
+/* tr{
+    display: inline-block;
+}
+td{
+    display: block;
+} */
